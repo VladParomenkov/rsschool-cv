@@ -57,3 +57,22 @@ I am engaged in the promotion of seo sites.
 Website development experience: 3 years.
 
 *** 
+
+## Education
+
+2013 - 2017, Belarusian National Technical University
+
+engineering and pedagogy faculty - teacher-programmer
+
+2019 - 2019, Belhard Academy
+
+SEO courses. - advanced level
+
+English
+Level: А1
+
+English at school
+
+Technical English at University
+
+***
