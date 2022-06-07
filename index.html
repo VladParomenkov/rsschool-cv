@@ -1,13 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body class="body">
+    <div class="container">
+      <header class="header">
+        <nav class="nav">
+          <p class="title_head">Portfolio Rsschool</p>
+        </nav>
+        <div class="main-header">
+                    <figure class="left-header">
+            <figcaption>
+              <img
+                class="photo"
+                src="./img/cv.jpg"
+                alt="CV"
+              />
+            </figcaption>
+          </figure>
+          <div class="right-header">
+            <h1>Vlad Paromenkov</h1>
+
+            <div class="contacts">
+              <ul class="contact-list">
+                <li>
+                  <a>+375 (29) 652-26-79</a>
+                </li>
+                <li>
+                  <a>vladparomenkov@gmail.com</a>
+                </li>   
+                <li>
+                  <a>github.com/VladParomenkov</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <section class="summary">
+          <h2>Summary</h2>
+          <p>
+            I'm 27 years old. I work in a private company as a system administrator, 
+            I am also involved in the implementation of IP telephony on asterisk My goal is to gain enough experience for web development. 
+            I want to work in a team where I will learn something new or help with my knowledge.
+          </p>
+        </section>
+        <div class="column">
+          <div class="left-column">
+            <section class="skills">
+              <h2>Skills</h2>
+              <ul>
+                <li>HTML5, CSS3</li>
+                <li>JavaScript</li>
+                <li>Git, Github</li>
+                <li>VS Code, Photoshop, Figma</li>
+                <li>and etc.</li>
+              </ul>
+            </section>
+            <section class="code">
+              <h2>Code Example</h2>
+                <code >
+                    function explode(s) 
+                    {
+                    
+                      let str = ''
+                    
+                      s.split('').forEach(num => str += num.repeat(+num))  
+                    
+                      return str;
+                    
+                    } 
+                </code>
+            </section>
+            <section class="experience">
+                <h2>Experience</h2>
+                <p>Thes is was an Internet shop of pure HTML & CSS, JS and PHP.
+                    Created sites on Wordpress.
+                    Work examples: ArtDrama, SeoPapa
+                    I am engaged in the promotion of seo sites.
+                    Website development experience: 3 years. </p>
+              </section>
+              
+            </div>
+        </div>
+        <section class="education">
+        <h2>Education</h2>
+        <p>2013 - 2017, Belarusian National Technical University
+
+            engineering and pedagogy faculty - teacher-programmer
+            
+            2019 - 2019, Belhard Academy
+            
+            SEO courses. - advanced level
+            
+            English
+            Level: А1
+            
+            English at school
+            
+            Technical English at University </p>
+      </section>
+      </main>
+      <footer class="footer">
+        <div>
+          <a href="https://github.com/VladParomenkov" >My GitHub</a>
+        </div>
+        <div>
+          <a>2022</a>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
